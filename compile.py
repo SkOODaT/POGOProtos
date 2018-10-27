@@ -461,7 +461,7 @@ for proto_files in proto_folders:
                 '"' + proto_file + '"'))
 
 for command in commands:
-    call(command, shell=(os.name != 'nt'))
+    call(command, shell=True)
 
 if args.language == 'python':
     for path in protos:
