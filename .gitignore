@@ -3,8 +3,6 @@
 *.iml
 
 # Protoc files
-out/
-out2/
 tmp/
 *.pyc
 *.DS_Store
